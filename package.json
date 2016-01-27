@@ -1,0 +1,29 @@
+{
+  "name": "Title",
+  "version": "0.0.1",
+  "description": "Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/test.js",
+    "preinstall": "lockdown"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "file-stream-rotator": "0.0.6",
+    "lockdown": "0.0.8-dev",
+    "morgan": "^1.6.1",
+    "winston": "^2.1.1",
+    "winston-daily-rotate-file": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^3.1.0",
+    "mocha": "^2.3.4",
+    "node-inspector": "^0.12.5",
+    "supertest": "^1.1.0"
+  }
+}

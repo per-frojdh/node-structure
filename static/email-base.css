@@ -1,0 +1,225 @@
+﻿html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.1;
+  font-size: 12px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999999;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h1 .small,
+h2 .small,
+h3 .small {
+  font-size: 65%;
+}
+
+h4,
+h5,
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4 small,
+h5 small,
+h6 small,
+h4 .small,
+h5 .small,
+h6 .small {
+  font-size: 75%;
+}
+
+h1,
+.h1 {
+  font-size: 18px;
+}
+
+h2,
+.h2 {
+  font-size: 16px;
+}
+
+h3,
+.h3 {
+  font-size: 14px;
+}
+
+h4,
+.h4 {
+  font-size: 12pt;
+}
+
+h5,
+.h5 {
+  font-size: 12pt;
+}
+
+h6,
+.h6 {
+  font-size: 12px;
+}
+
+p {
+  text-align: left;
+}
+
+ul, ol {
+  padding-left: 5px;
+}
+
+table, .table {
+  width: 40em;
+  margin-bottom: 20px;
+  border-spacing: 0px;
+}
+
+.lklineorange {
+  border-top: 4px solid rgb(227, 82, 5);
+  border-right: 1px solid rgb(227, 82, 5);
+  border-left: 1px solid rgb(227, 82, 5);
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+  height: 0;
+}
+.lklineblack {
+  border-top: 2px solid #000000;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+  height: 0;
+}
+
+th, .table th,
+td, .table td {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+td:first-child {
+  width: 11em;
+  max-width: 11em;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.table thead th {
+  vertical-align: bottom;
+}
+
+.table caption + thead tr:first-child th,
+.table caption + thead tr:first-child td,
+.table colgroup + thead tr:first-child th,
+.table colgroup + thead tr:first-child td,
+.table thead:first-child tr:first-child th,
+.table thead:first-child tr:first-child td {
+  border-top: 0;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+.table tbody tr.success td, div.success {
+  background-color: #dff0d8;
+}
+
+.table tbody tr.error td, div.error {
+  background-color: #f2dede;
+}
+
+.table tbody tr.warning td, div.warning {
+  background-color: #fcf8e3;
+}
+
+.table tbody tr.info td, div.info {
+  background-color: #d9edf7;
+}
+
+div.info {
+  padding: 4px 5px;
+  line-height: 20px;
+  margin: -4px -5px;
+}
+
+tr.test {
+    font-weight: bold;
+}
+
+.table-hover tbody tr.success:hover td {
+  background-color: #d0e9c6;
+}
+
+.table-hover tbody tr.error:hover td {
+  background-color: #ebcccc;
+}
+
+.table-hover tbody tr.warning:hover td {
+  background-color: #faf2cc;
+}
+
+.table-hover tbody tr.info:hover td {
+  background-color: #c4e3f3;
+}
+
+.table-condensed th,
+.table-condensed td {
+  padding: 4px 5px;
+}

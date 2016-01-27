@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>{{title}}</title>
+</head>
+<body>
+<table class='table'>
+    <tbody>
+    <tr>
+        <td>
+            Ledningskollen.se
+            <p class='lklineorange'>&nbsp;</p>
+            <p class='lklineblack'>&nbsp;</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            {{{body}}}
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

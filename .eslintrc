@@ -1,0 +1,19 @@
+// Use Airbin style guide
+// https://github.com/airbnb/javascript 
+{
+    "env": {
+      "node": true  
+    },
+	"extends": "airbnb/legacy",
+	"rules": {
+		// override 2 space indent to 4 and give an erro
+		"indent": [2,4]
+	},
+    "globals": {
+        "global": true,
+        "process": true,
+        "appRequire": true,
+        "describe": true, // for tests
+        "it": true // for tests
+    }
+}
